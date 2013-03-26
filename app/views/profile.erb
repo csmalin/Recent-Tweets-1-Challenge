@@ -1,0 +1,6 @@
+<%= @user.username %>'s Last 10 tweets:
+<ul>
+<% @tweets.each do |tweet| %>
+    <li><%= tweet.text %></li>
+<% end %>
+</ul>

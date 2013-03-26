@@ -1,0 +1,21 @@
+<style type="text/css">
+  .container {
+    margin: 20px auto;
+    width: 600px;
+    padding: 0px 20px 20px 20px;
+    border: 1px solid blue;
+  }
+  th {
+    text-align: left;
+  }
+</style>
+
+<div class="container">
+  <h1>Welcome to A Hobo's Monkey!</h1>
+  <h3>Type in your username to see your last 10 tweets.</h3>
+  <form action='/user' method='get'>
+    <input type='text' name='username' autofocus='autofocus'>
+    <input type='submit' value='go'>
+  </form>
+
+</div>
